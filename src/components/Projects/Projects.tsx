@@ -11,7 +11,7 @@ const Projects = () => {
       <Container>
         <div className="infos">
           <h2>
-            <span>Meu</span> Projetos
+            <span>Meus</span> Projetos
           </h2>
           <p>Estes são alguns dos trabalhos e projetos que já realizei</p>
         </div>
