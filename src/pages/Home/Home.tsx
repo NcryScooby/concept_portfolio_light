@@ -1,6 +1,7 @@
 import About from "../../components/About/About";
 import Header from "../../components/Header/Header";
 import Introduction from "../../components/Introduction/Introduction";
+import Professional from "../../components/Professional/Professional";
 import Projects from "../../components/Projects/Projects";
 import Tech from "../../components/Tech/Tech";
 import { Container } from "./style";
@@ -16,6 +17,7 @@ const Home = () => {
         <About />
         <Projects />
         <Tech />
+        <Professional />
       </Container>
     </>
   );

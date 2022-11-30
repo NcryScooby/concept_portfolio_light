@@ -5,5 +5,5 @@ export const Container = styled.main`
   margin: 0 auto;
   padding: 2rem 8rem;
   display: grid;
-  grid-template-rows: repeat(4, 800px);
+  grid-template-rows: repeat(5, 800px);
 `;
