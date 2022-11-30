@@ -28,7 +28,7 @@ const Professional = () => {
           </div>
           <div>
             <strong>
-              Estágio de desenvolvedor Front-End/Mobile e TI specialist.
+              Estágio de desenvolvedor Front-End/Mobile e IT specialist.
             </strong>
             <h6>Grupo Ecore</h6>
             <p>05/22 até 12/22.</p>
