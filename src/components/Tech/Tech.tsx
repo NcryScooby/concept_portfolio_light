@@ -1,5 +1,4 @@
 import { Container } from "./style";
-import angular from "../../assets/angular.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import javascript from "../../assets/javascript.svg";
@@ -9,7 +8,7 @@ import mysql from "../../assets/mysql.svg";
 import node from "../../assets/node.svg";
 import docker from "../../assets/docker.svg";
 import reactnative from "../../assets/react-native.svg";
-import java from "../../assets/java.svg";
+import { Tooltip } from "@mui/material";
 
 const Tech = () => {
   return (
@@ -27,9 +26,27 @@ const Tech = () => {
               <span>Already</span> used
             </h3>
             <div>
-              <img src={angular} alt="angular" />
-              <img src={reactnative} alt="reactnative" />
-              <img src={java} alt="java" />
+              <Tooltip title="HTML" disableInteractive>
+                <img src={html} alt="html" />
+              </Tooltip>
+              <Tooltip title="CSS" disableInteractive>
+                <img src={css} alt="css" />
+              </Tooltip>
+              <Tooltip title="JavaScript" disableInteractive>
+                <img src={javascript} alt="javascript" />
+              </Tooltip>
+              <Tooltip title="TypeScript" disableInteractive>
+                <img src={typescript} alt="typescript" />
+              </Tooltip>
+              <Tooltip title="React" disableInteractive>
+                <img src={react} alt="react" />
+              </Tooltip>
+              <Tooltip title="Node" disableInteractive>
+                <img src={node} alt="node" />
+              </Tooltip>
+              <Tooltip title="MySQL" disableInteractive>
+                <img src={mysql} alt="mysql" />
+              </Tooltip>
             </div>
           </div>
           <div className="tecs-current">
@@ -38,14 +55,12 @@ const Tech = () => {
               <span>Currently</span> developing
             </h3>
             <div>
-              <img src={html} alt="html" />
-              <img src={css} alt="css" />
-              <img src={javascript} alt="javascript" />
-              <img src={typescript} alt="typescript" />
-              <img src={react} alt="react" />
-              <img src={node} alt="node" />
-              <img src={mysql} alt="mysql" />
-              <img src={docker} alt="docker" />
+              <Tooltip title="React-Native" disableInteractive>
+                <img src={reactnative} alt="reactnative" />
+              </Tooltip>
+              <Tooltip title="Docker" disableInteractive>
+                <img src={docker} alt="docker" />
+              </Tooltip>
             </div>
           </div>
         </div>

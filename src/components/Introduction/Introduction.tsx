@@ -3,6 +3,7 @@ import illustration from "../../assets/illustration.svg";
 import git from "../../assets/git.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
+import { Link } from "react-router-dom";
 
 const Introduction = () => {
   return (
@@ -18,9 +19,18 @@ const Introduction = () => {
             <Button>Learn more about me</Button>
           </div>
           <div className="networks">
-            <img src={git} alt="github" className="links" />
-            <img src={linkedin} alt="linkedin" className="links" />
-            <img src={instagram} alt="instagram" className="links" />
+            <a href="https://github.com/NcryScooby" target="_blank">
+              <img src={git} alt="github" className="links" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fabr%C3%ADcio-caldana-anelli-593b091a3/"
+              target="_blank"
+            >
+              <img src={linkedin} alt="linkedin" className="links" />
+            </a>
+            <a href="https://www.instagram.com/notrealscooby" target="_blank">
+              <img src={instagram} alt="instagram" className="links" />
+            </a>
           </div>
         </div>
         <div className="illustration">

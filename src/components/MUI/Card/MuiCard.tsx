@@ -21,7 +21,9 @@ const MuiCard = ({ image, title, description, url }: Props) => {
       <Card
         sx={{
           maxWidth: 345,
-          backgroundColor: "#263138",
+          borderRadius: "8px",
+          boxShadow:
+            "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px",
         }}
       >
         <CardActionArea onClick={goToUrl}>
@@ -32,17 +34,16 @@ const MuiCard = ({ image, title, description, url }: Props) => {
               variant="h5"
               component="div"
               sx={{
-                color: "#f5f5f5",
                 paddingLeft: "8px",
+                fontSize: "1rem",
               }}
             >
               {title}
             </Typography>
             <Typography
               sx={{
-                color: "#eeeeee",
                 fontWeight: "300",
-                opacity: "0.5",
+                fontSize: "0.9rem !important",
               }}
             >
               {description}
