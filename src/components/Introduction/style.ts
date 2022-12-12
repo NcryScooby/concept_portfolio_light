@@ -14,6 +14,9 @@ export const Container = styled.section`
       display: flex;
       gap: 1rem;
       align-items: center;
+      .links {
+        cursor: pointer;
+      }
     }
 
     p {

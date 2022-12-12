@@ -10,17 +10,17 @@ const Introduction = () => {
       <Container>
         <div className="infos">
           <div>
-            <p>Olá pessoas,</p>
-            <h2>Eu sou um Programador</h2>
-            <p>Seja bem-vindo ao meu portfólio website</p>
+            <p>Hi,</p>
+            <h2>I'M A SOFTWARE DEVELOPER</h2>
+            <p>Welcome to my portfolio</p>
           </div>
           <div>
-            <Button>Saiba mais sobre mim</Button>
+            <Button>Learn more about me</Button>
           </div>
           <div className="networks">
-            <img src={git} alt="github" />
-            <img src={linkedin} alt="linkedin" />
-            <img src={instagram} alt="instagram" />
+            <img src={git} alt="github" className="links" />
+            <img src={linkedin} alt="linkedin" className="links" />
+            <img src={instagram} alt="instagram" className="links" />
           </div>
         </div>
         <div className="illustration">

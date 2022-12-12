@@ -17,14 +17,14 @@ const Tech = () => {
       <Container>
         <div className="title">
           <h2>
-            Minhas <span>Techs</span>
+            My <span>Techs</span>
           </h2>
         </div>
         <div className="tecs">
           <div className="tecs-old">
-            <p>Tecnologias</p>
+            <p>Technologies</p>
             <h3>
-              <span>Já</span> utilizadas
+              <span>Already</span> used
             </h3>
             <div>
               <img src={angular} alt="angular" />
@@ -33,9 +33,9 @@ const Tech = () => {
             </div>
           </div>
           <div className="tecs-current">
-            <p>Tecnologias</p>
+            <p>Technologies</p>
             <h3>
-              <span>Atualmente</span> desenvolvendo
+              <span>Currently</span> developing
             </h3>
             <div>
               <img src={html} alt="html" />

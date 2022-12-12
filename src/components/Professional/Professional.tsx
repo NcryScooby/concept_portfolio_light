@@ -7,45 +7,43 @@ const Professional = () => {
       <Container>
         <div className="title">
           <div>
-            <p>Minha jornada esta apenas começando, sempre aprendendo</p>
+            <p>My journey is just beginning, always learning</p>
           </div>
           <h2>
-            Experiência <span>Profissional</span>
+            Professional <span>Experience</span>
           </h2>
         </div>
         <div className="cards">
           <div>
-            <strong>Freelancer em Manutenção/Montagem de Computadores</strong>
-            <p>2018 a 2021.</p>
+            <strong>Freelancer in Computer Maintenance/Assembly</strong>
+            <p>2018 to 2021.</p>
           </div>
           <div>
-            <strong>Estágio de desenvolvedor Front-End</strong>
+            <strong>Front End Developer Internship</strong>
             <h6>Grupo Dimed/Panvel</h6>
-            <p>08/21 até 02/22.</p>
-            <p>
-              Auxiliava na construção de Sites Web usando a tecnologia ReactJS.
-            </p>
+            <p>08/21 to 02/22.</p>
+            <p>Assistance in building websites using ReactJS technology.</p>
           </div>
           <div>
             <strong>
-              Estágio de desenvolvedor Front-End/Mobile e IT specialist.
+              Front-End/Mobile developer internship and IT specialist.
             </strong>
             <h6>Grupo Ecore</h6>
-            <p>05/22 até 12/22.</p>
+            <p>05/22 to 12/22.</p>
             <p>
-              Construo Aplicações Web, usando ReactJS, NodeJS e mySQL.
-              Aplicações mobile usando React-Native e suporte geral nos
-              computadores e no sistema realizando consultas e alterações no
-              Banco de Dados.
+              I build Web Applications, using ReactJS, NodeJS and mySQL. Mobile
+              applications using React-Native and general support in computers
+              and the system performing consultations and changes in the
+              Database.
             </p>
           </div>
         </div>
         <div className="final-text">
           <img src={quote} alt="quote" id="quote" />
           <p>
-            “<strong>Aprender</strong> é a unica coisa que
-            <strong> a mente não se cansa</strong>, nunca tem medo e nunca se
-            arrepende”
+            “<strong>Learning</strong> is the only thing{" "}
+            <strong>the mind never exhausts</strong>, never fears, and never
+            regrets”
           </p>
           <p>~Leonardo da Vinci</p>
         </div>

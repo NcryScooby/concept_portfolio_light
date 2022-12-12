@@ -84,6 +84,7 @@ export const Container = styled.section`
     margin-top: 4rem;
     p {
       max-width: 40ch;
+      text-align: center;
 
       &:last-child {
         color: #263138;

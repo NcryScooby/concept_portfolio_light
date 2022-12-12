@@ -11,9 +11,9 @@ const Projects = () => {
       <Container>
         <div className="infos">
           <h2>
-            <span>Meus</span> Projetos
+            <span>My</span> Projects
           </h2>
-          <p>Estes são alguns dos trabalhos e projetos que já realizei</p>
+          <p>These are some of the jobs and projects I've done</p>
         </div>
         <div className="projects">
           <MuiCard

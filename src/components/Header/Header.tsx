@@ -16,19 +16,19 @@ const Header = () => {
               <Link to="#about">Home</Link>
             </li>
             <li>
-              <Link to="#about">Sobre</Link>
+              <Link to="#about">Introduction</Link>
             </li>
             <li>
-              <Link to="#about">Portfólio</Link>
+              <Link to="#about">Skills</Link>
             </li>
             <li>
-              <Link to="#about">Serviços</Link>
+              <Link to="#about">Projects</Link>
             </li>
             <li>
-              <Link to="#about">Resumo</Link>
+              <Link to="#about">Technologies</Link>
             </li>
             <li>
-              <Link to="#about">Contato</Link>
+              <Link to="#about">Experience</Link>
             </li>
           </ul>
         </div>
