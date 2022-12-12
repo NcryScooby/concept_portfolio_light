@@ -13,7 +13,7 @@ const Projects = () => {
           <h2>
             <span>My</span> Projects
           </h2>
-          <p>These are some of the jobs and projects I've done</p>
+          <p>These are some of the jobs and projects I&apos;ve done</p>
         </div>
         <div className="projects">
           <MuiCard
