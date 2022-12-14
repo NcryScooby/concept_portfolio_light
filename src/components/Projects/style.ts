@@ -17,8 +17,7 @@ export const Container = styled.section`
     justify-content: center;
 
     img {
-      width: 368px;
-      height: 201px;
+      height: 150px;
     }
     p {
       font-size: 18px;
