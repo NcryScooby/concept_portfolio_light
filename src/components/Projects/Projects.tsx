@@ -36,7 +36,7 @@ const Projects = () => {
           />
           <MuiCard
             image={portfolio}
-            title={"Portfólio"}
+            title={"Portfolio"}
             description={"A personal portfolio"}
             url={"https://fabricio-portfolio.netlify.app"}
           />

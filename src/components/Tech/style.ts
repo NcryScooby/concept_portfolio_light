@@ -22,6 +22,7 @@ export const Container = styled.section`
 
     img {
       margin-top: 1rem;
+      cursor: pointer;
     }
 
     .tecs-current {
