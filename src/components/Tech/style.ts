@@ -6,7 +6,7 @@ export const Container = styled.section`
   flex-direction: column;
   text-align: center;
 
-  .tecs {
+  .techs {
     h3 {
       font-size: 2rem;
       margin: 0;
@@ -25,7 +25,7 @@ export const Container = styled.section`
       cursor: pointer;
     }
 
-    .tecs-current {
+    .techs-current {
       margin-top: 4rem;
       div {
         display: flex;
@@ -35,7 +35,7 @@ export const Container = styled.section`
       }
     }
 
-    .tecs-old {
+    .techs-old {
       div {
         display: flex;
         align-items: center;

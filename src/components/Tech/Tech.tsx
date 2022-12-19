@@ -7,7 +7,7 @@ import react from "../../assets/react.svg";
 import mysql from "../../assets/mysql.svg";
 import node from "../../assets/node.svg";
 import docker from "../../assets/docker.svg";
-import reactnative from "../../assets/react-native.svg";
+import reactNative from "../../assets/react-native.svg";
 import { Tooltip } from "@mui/material";
 
 const Tech = () => {
@@ -19,8 +19,8 @@ const Tech = () => {
             My <span>Techs</span>
           </h2>
         </div>
-        <div className="tecs">
-          <div className="tecs-old">
+        <div className="techs">
+          <div className="techs-old">
             <p>Technologies</p>
             <h3>
               <span>Already</span> used
@@ -49,14 +49,14 @@ const Tech = () => {
               </Tooltip>
             </div>
           </div>
-          <div className="tecs-current">
+          <div className="techs-current">
             <p>Technologies</p>
             <h3>
               <span>Currently</span> developing
             </h3>
             <div>
               <Tooltip title="React-Native" disableInteractive>
-                <img src={reactnative} alt="reactnative" />
+                <img src={reactNative} alt="react-native" />
               </Tooltip>
               <Tooltip title="Docker" disableInteractive>
                 <img src={docker} alt="docker" />
