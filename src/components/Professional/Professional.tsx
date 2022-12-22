@@ -22,19 +22,28 @@ const Professional = () => {
             <strong>Front End Developer Internship</strong>
             <h6>Grupo Dimed/Panvel</h6>
             <p>08/21 to 02/22.</p>
-            <p>Assistance in building websites using ReactJS technology.</p>
+            <p>
+              Promoted the correction of bugs in systems and added new features.
+              In addition, I performed test coverage tasks, mapping functions
+              where tests were not being performed. It was possible to develop
+              knowledge of agile methodologies, SCRUM and modern technologies
+              such as React, Spring Boot and Angular.
+            </p>
           </div>
           <div>
-            <strong>
-              Front-End/Mobile developer internship and IT specialist.
-            </strong>
+            <strong>Front-End developer internship</strong>
             <h6>Grupo Ecore</h6>
             <p>05/22 to 12/22.</p>
             <p>
-              I build Web Applications, using ReactJS, NodeJS and mySQL. Mobile
-              applications using React-Native and general support in computers
-              and the system performing consultations and changes in the
-              Database.
+              I led and developed improvement projects in the company&rsquo;s
+              systems using React, Node, Mysql, Mongodb technologies. One of
+              them was EcoreWeb, where an internal system was built that
+              generated automation, improved inventory and purchase management,
+              generating cost reduction. In addition to reducing the time to
+              perform tasks, and improving various internal processes. In
+              addition, I implemented a system that improved internal
+              communication between employees, which resulted in greater
+              productivity and organization.
             </p>
           </div>
         </div>

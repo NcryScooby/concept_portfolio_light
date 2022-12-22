@@ -66,6 +66,10 @@ export const Container = styled.section`
         color: #263138;
         margin-bottom: 2rem;
       }
+
+      &:nth-child(3) {
+        height: 400px;
+      }
     }
   }
 

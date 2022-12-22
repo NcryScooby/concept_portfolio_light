@@ -14,9 +14,11 @@ const About = () => {
           <span>Fabrício</span> Caldana Anelli
         </h2>
         <p>
-          Developer and Student of Systems Analysis and Development. I am a
-          proactive, optimistic person who loves what he does and is always
-          looking for new knowledge.
+          Full Stack Developer with passion for programming, focused on solving
+          problems and improving processes, aiming to achieve the best results
+          for the organization. In my previous experience it was possible to
+          reduce costs by developing an internal system using innovative
+          technologies.
         </p>
         <h2 className="hard-skills">
           Hard <span>Skills</span>
