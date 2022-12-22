@@ -17,6 +17,10 @@ const Professional = () => {
           <div>
             <strong>Freelancer in Computer Maintenance/Assembly</strong>
             <p>2018 to 2021.</p>
+            <p>
+              I performed cleaning, maintenance, changing parts, formatting,
+              configuring and assembling computers.
+            </p>
           </div>
           <div>
             <strong>Front End Developer Internship</strong>

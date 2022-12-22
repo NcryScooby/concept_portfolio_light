@@ -61,6 +61,10 @@ export const Container = styled.section`
       padding: 2rem;
       font-size: 1rem;
 
+      &:nth-child(1) {
+        height: 200px;
+      }
+
       &:nth-child(2) {
         background-color: #3e5a65;
         color: #263138;
