@@ -35,6 +35,11 @@ export const Container = styled.section`
     height: 300px;
     align-items: flex-end;
 
+    .time {
+      color: #4b87ff;
+      opacity: 1;
+    }
+
     p {
       color: #eeeeee;
       font-size: 14px;
@@ -61,7 +66,7 @@ export const Container = styled.section`
       padding: 2rem;
       font-size: 1rem;
 
-      &:nth-child(1) {
+      &:nth-child(3) {
         height: 200px;
       }
 
@@ -71,7 +76,7 @@ export const Container = styled.section`
         margin-bottom: 2rem;
       }
 
-      &:nth-child(3) {
+      &:nth-child(1) {
         height: 400px;
       }
     }
