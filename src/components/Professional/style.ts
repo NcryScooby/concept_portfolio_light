@@ -74,6 +74,7 @@ export const Container = styled.section`
         background-color: #3e5a65;
         color: #263138;
         margin-bottom: 2rem;
+        height: 315px;
       }
 
       &:nth-child(1) {

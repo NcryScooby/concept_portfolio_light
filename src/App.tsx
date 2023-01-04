@@ -1,11 +1,14 @@
 import Router from "./Router";
 import GlobalStyles from "./styles/GlobalStyles";
+import { LanguageProvider } from "./context/LanguageContext";
 
 const App = () => {
   return (
     <>
-      <Router />
-      <GlobalStyles />
+      <LanguageProvider>
+        <Router />
+        <GlobalStyles />
+      </LanguageProvider>
     </>
   );
 };

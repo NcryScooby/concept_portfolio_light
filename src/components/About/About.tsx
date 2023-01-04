@@ -4,8 +4,10 @@ import four from "../../assets/four.svg";
 import three from "../../assets/three.svg";
 import two from "../../assets/two.svg";
 import one from "../../assets/one.svg";
+import { useLanguage } from "../../context/LanguageContext";
 
 const About = () => {
+  const language = useLanguage();
   return (
     <>
       <Container>
@@ -14,15 +16,23 @@ const About = () => {
           <span>Fabrício</span> Caldana Anelli
         </h2>
         <p>
-          Full Stack Developer with passion for programming, focused on solving
-          problems and improving processes, aiming to achieve the best results
-          for the organization. In my previous experience it was possible to
-          reduce costs by developing an internal system using innovative
-          technologies.
+          {language.language === "en-US"
+            ? "Full Stack Developer with passion for programming, focused on solving problems and improving processes, aiming to achieve the best results for the organization. In my previous experience it was possible to reduce costs by developing an internal system using innovative technologies."
+            : "Desenvolvedor Full Stack com paixão por programação, focado em solucionar problemas e melhorar processos, visando alcançar os melhores resultados para a organização. Em minha experiência anterior foi possível reduzir custos através do desenvolvimento de um sistema interno utilizando tecnologias inovadoras."}
         </p>
-        <h2 className="hard-skills">
-          Hard <span>Skills</span>
-        </h2>
+        {language.language === "en-US" ? (
+          <>
+            <h2 className="hard-skills">
+              Hard <span>Skills</span>
+            </h2>
+          </>
+        ) : (
+          <>
+            <h2 className="hard-skills">
+              Minhas <span>Habilidades</span>
+            </h2>
+          </>
+        )}
         <div className="skills">
           <div>
             <p>HTML</p>

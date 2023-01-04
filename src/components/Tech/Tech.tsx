@@ -9,22 +9,46 @@ import node from "../../assets/node.svg";
 import docker from "../../assets/docker.svg";
 import reactNative from "../../assets/react-native.svg";
 import { Tooltip } from "@mui/material";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Tech = () => {
+  const language = useLanguage();
   return (
     <>
       <Container>
         <div className="title">
-          <h2>
-            My <span>Techs</span>
-          </h2>
+          {language.language === "en-US" ? (
+            <>
+              <h2>
+                My <span>Techs</span>
+              </h2>
+            </>
+          ) : (
+            <>
+              <h2>
+                Minhas <span>Tecnologias</span>
+              </h2>
+            </>
+          )}
         </div>
         <div className="techs">
           <div className="techs-old">
-            <p>Technologies</p>
-            <h3>
-              <span>Already</span> used
-            </h3>
+            <p>
+              {language.language === "en-US" ? "Technologies" : "Tecnologias"}
+            </p>
+            {language.language === "en-US" ? (
+              <>
+                <h3>
+                  <span>Already</span> used
+                </h3>
+              </>
+            ) : (
+              <>
+                <h3>
+                  <span>Já</span> utilizadas
+                </h3>
+              </>
+            )}
             <div>
               <Tooltip title="HTML" disableInteractive>
                 <img src={html} alt="html" />
@@ -50,10 +74,22 @@ const Tech = () => {
             </div>
           </div>
           <div className="techs-current">
-            <p>Technologies</p>
-            <h3>
-              <span>Currently</span> developing
-            </h3>
+            <p>
+              {language.language === "en-US" ? "Technologies" : "Tecnologias"}
+            </p>
+            {language.language === "en-US" ? (
+              <>
+                <h3>
+                  <span>Currently</span> developing
+                </h3>
+              </>
+            ) : (
+              <>
+                <h3>
+                  <span>Atualmente</span> estudando
+                </h3>
+              </>
+            )}
             <div>
               <Tooltip title="React-Native" disableInteractive>
                 <img src={reactNative} alt="react-native" />

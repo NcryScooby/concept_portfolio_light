@@ -14,7 +14,19 @@ export const Container = styled.header`
   .links {
     ul {
       display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 2rem;
+      li {
+        button {
+          background: #445964;
+          color: #ffffff;
+          border: none;
+          font-size: 16px;
+          padding: 10px 20px;
+          border-radius: 4px;
+        }
+      }
     }
   }
 `;

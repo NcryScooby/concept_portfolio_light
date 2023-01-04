@@ -4,6 +4,7 @@ import git from "../../assets/git.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
 import curriculum from "../../assets/curriculum.pdf";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Introduction = () => {
   const downloadCurriculum = () => {
@@ -13,17 +14,31 @@ const Introduction = () => {
     link.click();
   };
 
+  const language = useLanguage();
+
   return (
     <>
       <Container>
         <div className="infos">
           <div>
-            <p>Hi,</p>
-            <h2>I&apos;M A SOFTWARE DEVELOPER</h2>
-            <p>Welcome to my portfolio</p>
+            <p>{language.language === "en-US" ? "Hi," : "Oi,"}</p>
+            <h2>
+              {language.language === "en-US"
+                ? "I'M A SOFTWARE DEVELOPER"
+                : "EU SOU UM PROGRAMADOR"}
+            </h2>
+            <p>
+              {language.language === "en-US"
+                ? "Welcome to my portfolio"
+                : "Bem vindo ao meu portfólio"}
+            </p>
           </div>
           <div>
-            <Button onClick={downloadCurriculum}>Download CV</Button>
+            <Button onClick={downloadCurriculum}>
+              {language.language === "en-US"
+                ? "Download Curriculum"
+                : "Baixar Currículo"}
+            </Button>
           </div>
           <div className="networks">
             <a
