@@ -1,7 +1,7 @@
 import MuiCard from "../MUI/Card/MuiCard";
 import { Container } from "./style";
 import ecoreweb from "../../assets/ecoreweb.png";
-import rektr from "../../assets/rektr.png";
+import foo from "../../assets/foo.png";
 import eShop from "../../assets/eShop.png";
 import portfolio from "../../assets/portfolio.png";
 import { useLanguage } from "../../context/LanguageContext";
@@ -40,14 +40,16 @@ const Projects = () => {
             url={"https://ecoreweb.com.br"}
           />
           <MuiCard
-            image={rektr}
-            title={"Rektr"}
+            image={foo}
+            title={"Foo"}
             description={
               language.language === "en-US"
-                ? "A football app made with React, node and MySQL."
-                : "Um app de futebol feito com React, node e MySQL."
+                ? "A store to buy food made with React, Node and Mongo."
+                : "Um loja para comprar comida feito com React, Node e Mongo."
             }
-            url={"https://github.com/NcryScooby/soccer_client"}
+            url={
+              "https://www.linkedin.com/posts/fabr%C3%ADcio-caldana-anelli-593b091a3_fullstack-react-node-activity-7026244407766986752-PSkg?utm_source=share&utm_medium=member_desktop"
+            }
           />
           <MuiCard
             image={eShop}
