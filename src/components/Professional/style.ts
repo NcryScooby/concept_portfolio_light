@@ -67,7 +67,7 @@ export const Container = styled.section`
       font-size: 1rem;
 
       &:nth-child(3) {
-        height: 200px;
+        height: 370px;
       }
 
       &:nth-child(2) {

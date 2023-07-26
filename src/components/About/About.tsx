@@ -1,5 +1,5 @@
 import { Container } from "./style";
-import fabricio from "../../assets/fabricio.svg";
+import fabricio from "../../assets/fabricio.png";
 import four from "../../assets/four.svg";
 import three from "../../assets/three.svg";
 import two from "../../assets/two.svg";

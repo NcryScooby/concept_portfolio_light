@@ -79,18 +79,19 @@ const Professional = () => {
           <div>
             <strong>
               {language.language === "en-US"
-                ? "Freelancer in Computer Maintenance/Assembly"
-                : "Freelancer em Manutenção/Montagem de Computadores"}
+                ? "Junior Front End Developer"
+                : "Desenvolvedor Júnior Front End"}
             </strong>
+            <h6>Bagy</h6>
             <p className="time">
               {language.language === "en-US"
-                ? "February/18 to May/21"
-                : "Fevereiro/18 a Maio/21"}
+                ? "April/23 to Present"
+                : "Abril/23 até o Presente Momento"}
             </p>
             <p>
               {language.language === "en-US"
-                ? "I performed cleaning, maintenance, changing parts, formatting, configuring and assembling computers."
-                : "Realizava limpeza, manutenção, troca de peças, formatação, configuração e montagem de computadores."}
+                ? "Currently, I am part of the support team for the Bagy platform, where I work as part of the squad dedicated to bug resolution. Our team performs fixes on several platforms, including projects in Vue.js, Angular, PHP and Twig. In the squad, my role is to identify and solve emerging problems, ensuring the stability of the platforms and the satisfaction of the users. In addition, I am a prevention enthusiast, seeking to improve development processes to avoid the recurrence of errors."
+                : "Atualmente, integro a equipe de sustentação da plataforma Bagy, onde atuo como parte da squad dedicada à resolução de bugs. Nossa equipe realiza correções em diversas plataformas, incluindo projetos em Vue.js, Angular, PHP e Twig. Na squad, meu papel é identificar e solucionar problemas emergentes, garantindo a estabilidade das plataformas e a satisfação dos usuários. Além disso, sou um entusiasta da prevenção, buscando aprimorar processos de desenvolvimento para evitar a recorrência de erros."}
             </p>
           </div>
         </div>
