@@ -60,7 +60,9 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="#about">Experience</Link>
+              <Link to="#about">
+                {language.language === "en-US" ? "Experiences" : "Experiências"}
+              </Link>
             </li>
             <li>
               <button onClick={handleClick}>
